@@ -1,4 +1,14 @@
-import { withTheme } from "styled-components"
+import React from 'react'
+import mainHeaderImage from './images/logo.jpg'
+import { Search } from 'styled-icons/feather'
+
+const images = {
+    mainHeaderImage
+}
+
+const icons = {
+    Search: <Search/>
+}
 
 const theme = {
     space: [0, 4, 8, 16, 32, 64, 128, 256, 512],
@@ -27,4 +37,4 @@ const variants = {
     }
 }
 
-export const Acai = { ...theme, variants}
+export const Acai = { ...theme, variants, images, icons }
