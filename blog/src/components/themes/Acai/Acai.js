@@ -7,13 +7,13 @@ const images = {
 }
 
 const icons = {
-    Search: <Search/>
+    Search: <Search />
 }
 
 const theme = {
     space: [0, 4, 8, 16, 32, 64, 128, 256, 512],
     colors: {
-        acai: {
+        acais: {
             0: '#46295A',
             1: '#9400d3',
             2: '#993399'
@@ -24,15 +24,15 @@ const theme = {
 const variants = {
     iconButton: {
         primary: {
-            color: theme.colors.acai[0]
+            color: theme.colors.acais[0]
         },
         contrast: {
-            color: theme.colors.acai[2]
+            color: theme.colors.acais[2]
         }
     },
     header: {
         primary: {
-            backgroundColor: theme.colors.acai[0]
+            backgroundColor: theme.colors.acais[0]
         }
     }
 }
