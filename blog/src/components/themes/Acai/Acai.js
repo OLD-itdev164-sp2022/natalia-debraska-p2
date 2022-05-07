@@ -13,7 +13,7 @@ const icons = {
 const theme = {
     space: [0, 4, 8, 16, 32, 64, 128, 256, 512],
     colors: {
-        acais: {
+        acais: { 
             0: '#46295A',
             1: '#9400d3',
             2: '#993399'
