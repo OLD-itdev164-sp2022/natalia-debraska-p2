@@ -9,7 +9,7 @@ module.exports = {
     author: `DeBraska`,
     contact: {
       name: `Natalia DeBraska`,
-      company: `Art Gallery`,
+      company: `Galeria de Arte`,
       address: `Brazil`
     },
     siteUrl: `https://gatsbystarterdefaultsource.gatsbyjs.io/`,
